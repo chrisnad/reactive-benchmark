@@ -15,7 +15,6 @@ public class ItemsImpl implements ItemsApiDelegate {
 
     @Override
     public ResponseEntity<Item> getItem(String itemId) {
-        System.out.println(ForkJoinPool.commonPool().getParallelism());
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
