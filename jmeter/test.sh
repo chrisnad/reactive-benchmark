@@ -1,6 +1,6 @@
 #!/bin/bash
 
-T_DIR=tests/mvc
+T_DIR=mvc
 
 # Reporting dir: start fresh
 R_DIR=${T_DIR}/report
