@@ -1,0 +1,15 @@
+package com.decathlon;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
+public class ContractFirstApplication {
+
+    public static void main(String[] args) {
+        System.setProperty("reactor.netty.ioWorkerCount", "5");
+        new SpringApplication(ContractFirstApplication.class).run(args);
+    }
+
+}
