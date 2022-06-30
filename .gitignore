@@ -35,3 +35,6 @@ store-server-reactive/.hypothesis/
 store-server-mvc/target/
 store-server-mvc/pocvenv/
 store-server-mvc/.hypothesis/
+**/report/
+**/*.jtl
+**/*.log
